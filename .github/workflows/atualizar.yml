@@ -1,0 +1,73 @@
+name: Atualizar e publicar
+
+# 07h e 19h no horário de Brasília (10h e 22h UTC), ao enviar código novo e sob demanda
+on:
+  schedule:
+    - cron: "0 10,22 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: atualizar
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Baixar a base atual (ramo dados)
+        run: |
+          git fetch --depth=1 origin dados
+          git restore --source=origin/dados --worktree -- site/data traducoes.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Coletar Diário Oficial da União
+        if: github.event_name != 'push'
+        run: python3 coletor.py --dias 3
+
+      - name: Coletar FAO, Codex e RASFF
+        if: github.event_name != 'push'
+        run: python3 coletor_internacional.py || echo "::warning::falha no coletor internacional"
+
+      - name: Salvar a base no ramo dados (só a versão mais recente)
+        if: github.event_name != 'push'
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          tmp=$(mktemp -d)
+          mkdir -p "$tmp/site"
+          cp -r site/data "$tmp/site/data"
+          cp traducoes.json "$tmp/"
+          cd "$tmp"
+          git init -q -b dados
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "Base atualizada em $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -fq "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" dados
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Publicar no GitHub Pages
+        id: publicar
+        uses: actions/deploy-pages@v4

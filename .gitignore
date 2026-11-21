@@ -1,0 +1,8 @@
+# dados gerados pelos coletores ficam no ramo "dados" (só a versão mais recente)
+site/data/
+traducoes.json
+# arquivos locais
+logs/
+*.log
+__pycache__/
+.claude/

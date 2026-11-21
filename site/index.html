@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Legislação</title>
+  <meta name="description" content="Legislação de alimentos e bebidas publicada no Diário Oficial da União, atualizada todos os dias.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="estilo.css?v=9">
+</head>
+<body>
+  <header class="barra">
+    <div class="barra__in">
+      <a class="marca" href="#" data-view="todas" aria-label="Legislação, início">
+        <span class="selo-marca" aria-hidden="true">§</span>
+        Legislação
+      </a>
+      <nav class="abas" aria-label="Seções">
+        <a href="#" data-view="todas">Todas</a>
+        <a href="#view=empresas" data-view="empresas">Recolhimentos</a>
+        <a href="#view=noticias" data-view="noticias">Notícias</a>
+        <a href="#view=salvas" data-view="salvas">Salvas <span class="conta" id="conta-salvas"></span></a>
+        <a href="#view=fontes" data-view="fontes">Fontes</a>
+      </nav>
+      <span class="status" id="status" title="Fonte: Diário Oficial da União"></span>
+      <button class="icone-btn" id="tema" type="button" aria-label="Alternar tema claro/escuro">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="app" class="pagina"></main>
+
+  <aside class="gaveta" id="gaveta" hidden aria-modal="true" role="dialog" aria-labelledby="g-titulo">
+    <div class="gaveta__fundo" data-fechar></div>
+    <div class="gaveta__painel" tabindex="-1">
+      <div class="gaveta__topo">
+        <button class="icone-btn" data-nav="-1" type="button" aria-label="Ato anterior (k)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="icone-btn" data-nav="1" type="button" aria-label="Próximo ato (j)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <span class="gaveta__pos" id="g-pos"></span>
+        <button class="icone-btn" data-fechar type="button" aria-label="Fechar (Esc)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg></button>
+      </div>
+      <div class="gaveta__corpo" id="g-corpo"></div>
+    </div>
+  </aside>
+
+  <div class="aviso-toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="data/legislacoes.js"></script>
+  <script src="data/internacional.js"></script>
+  <script src="app.js?v=9"></script>
+</body>
+</html>
