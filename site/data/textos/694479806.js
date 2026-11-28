@@ -1,0 +1,1 @@
+window.__texto({"id": "694479806", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "Na Tabela 1- Características Metrológicas da família de modelos PXXX, da Portaria n.º 863, de 19 de dezembro de 2025, publicada no Diário Oficial da União de 24 de dezembro de 2025, página 118, seção 1, onde se lê:"}]});

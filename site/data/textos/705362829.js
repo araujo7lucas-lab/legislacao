@@ -1,0 +1,1 @@
+window.__texto({"id": "705362829", "paragrafos": [{"c": "identifica", "t": "Retificação"}, {"c": "dou-paragraph", "t": "No Extrato de Parecer Técnico No 10.170/2026, publicado no D.O.U. Nº 75 de 23/04/2026, Seção 01, página 08; onde se lê: \"CQB: 039/97\", leia-se \"CQB: 038/97\""}]});

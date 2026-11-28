@@ -1,0 +1,1 @@
+window.__texto({"id": "695456536", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "Na Portaria SISA-AL/MAPA nº 39, publicada no Diário Oficial da União de 06 de março de 2026, Seção 1, página 4, onde se lê: de 5 de março de 2025, leia-se: de 5 de março de 2026."}]});

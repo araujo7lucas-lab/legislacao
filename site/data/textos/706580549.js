@@ -1,0 +1,1 @@
+window.__texto({"id": "706580549", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "Na Portaria SFA-SP/MAPA nº 981, de 14 de maio de 2026, publicada no D.O.U. de 18 de maio de 2026, Seção 1, página 13, onde se lê: PORTARIA SFA-SP/MAPA Nº 981, DE DE 14 DE MAIO DE 2026 leia-se: PORTARIA SFA-SP/MAPA Nº 981 DE 14 DE MAIO DE 2026."}]});

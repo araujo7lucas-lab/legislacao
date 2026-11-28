@@ -1,0 +1,1 @@
+window.__texto({"id": "746077330", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "Na Decisão nº 82, de 3 de dezembro de 2026, do Serviço Nacional de Proteção de Cultivares, publicada no DOU nº 219, de 23 de novembro de 2026, Seção 1, página 30, onde se lê: 3 de dezembro de 2026; leia-se: 19 novembro de 2026."}]});

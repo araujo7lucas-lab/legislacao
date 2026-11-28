@@ -1,0 +1,1 @@
+window.__texto({"id": "729859459", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "Na publicação do Diário Oficial da União de 02 de setembro de 2026, Seção 1, pág. 3, Portaria Nº 200, de 21 de agosto de 2026, onde se lê \"RS1087\" leia-se \"BR RS 1087\"."}]});

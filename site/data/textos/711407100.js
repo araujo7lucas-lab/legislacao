@@ -1,0 +1,1 @@
+window.__texto({"id": "711407100", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "Na Portaria nº 403, de 03 de junho de 2026, publicada no Diário Oficial da União nº 105, de 09 de junho de 2026, Seção 1, página 101, onde se lê: \"MANOEL DE FREITAS NETO\" leia-se: \"RAQUEL APARECIDA FURLAN\"."}]});

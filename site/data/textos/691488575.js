@@ -1,0 +1,1 @@
+window.__texto({"id": "691488575", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "Na Portaria SFA-SP/MAPA nº 952, de 24 de fevereiro de 2026, publicada no D.O.U. de 02 de março de 2026, Seção 1, página 4, habilitação de médicos veterinários para emissão de GTA, onde se lê: Bruna Nesthehner de Lima, leia-se: Bruna Nestlehner de Lima."}]});

@@ -1,0 +1,1 @@
+window.__texto({"id": "704091395", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "Na Portaria SFA-SP/MAPA nº 973, de 29 de abril de 2026, publicada no D.O.U. de 05 de maio de 2026, Seção 1, página 8, onde se lê: Portaria SFA-SP/MAPA nº 973, de 22 de abril de 2026, leia-se: Portaria SFA-SP/MAPA nº 973, de 29 de abril de 2026."}]});

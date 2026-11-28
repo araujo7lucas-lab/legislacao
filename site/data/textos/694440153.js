@@ -1,0 +1,1 @@
+window.__texto({"id": "694440153", "paragrafos": [{"c": "identifica", "t": "retificação"}, {"c": "dou-paragraph", "t": "Na Portaria SFA-TO/SE/MAPA nº 19, de 12 de MARÇO de 2026, publicada no Diário Oficial da União em: 18/03/2026 | Edição: 52 | Seção: 1 | Página: 4. Onde se lê: sob o nº 0272754-VP , leia-se: sob o nº 02754-VP"}]});

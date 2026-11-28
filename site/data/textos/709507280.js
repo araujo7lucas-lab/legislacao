@@ -1,0 +1,1 @@
+window.__texto({"id": "709507280", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "Na Portaria nº 98, de 27.05.2026., publicada no DOU, do dia 29.05.2026, na seção 1 pag.13, ONDE SE LÊ: PORTARIA Nº 98, LEIA-SE: PORTARIA Nº 100."}]});

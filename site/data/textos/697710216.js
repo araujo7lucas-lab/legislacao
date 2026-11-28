@@ -1,0 +1,1 @@
+window.__texto({"id": "697710216", "paragrafos": [{"c": "identifica", "t": "retificação"}, {"c": "dou-paragraph", "t": "Retificar a PORTARIA SFA-TO/SE/MAPA Nº 27, DE 27 DE MARÇO DE 2026, publicada em: 02/04/2026 | Edição: 63 | Seção: 1 | Página: 5. Onde se lê: Vinícios Louro Velame, leia-se: Vinícius Louro Velame"}]});

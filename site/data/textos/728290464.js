@@ -1,0 +1,1 @@
+window.__texto({"id": "728290464", "paragrafos": [{"c": "identifica", "t": "RETIFICAÇÃO"}, {"c": "dou-paragraph", "t": "No Diário Oficial da União Nº 152, de 13 de agosto de 2026, Seção 1, página 12; onde se lê: \"PORTARIA SFA-PA/MAPA Nº 9, DE 7 DE MAIO DE 2026\"; leia-se: \"Portaria SFA-PA/MAPA nº 20/2026, de 11 de agosto de 2026\""}]});
